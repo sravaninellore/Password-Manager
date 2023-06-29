@@ -1,0 +1,118 @@
+.light-violet {
+  background-color: #9ba9eb;
+}
+
+.thick-blue {
+  background-color: #0b69ff;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.thick-grey {
+  background-color: #64748b;
+}
+
+.thick-red {
+  background-color: #b91c1c;
+}
+
+.light-red {
+  background-color: #f97316;
+}
+
+.light-green {
+  background-color: #14b8a6;
+}
+
+.thick-green {
+  background-color: #10b981;
+}
+
+.orange {
+  background-color: #f59e0b;
+}
+
+.moody-blue {
+  background-color: #7683cb;
+}
+
+.light-grey {
+  background-color: #94a3b8;
+}
+
+.pastel-blue {
+  background-color: #b6c3ca;
+}
+
+.password-item {
+  border: 1px solid #9ba9eb;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 13px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.profile {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  padding-top: 3px;
+  padding-right: 0px;
+}
+
+.password-item-details {
+  display: flex;
+  align-items: center;
+}
+
+.delete-button {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.input-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .password-item {
+    min-width: 31%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .password-item {
+    min-width: 45%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .password-item {
+    min-width: 100%;
+  }
+}

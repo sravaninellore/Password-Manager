@@ -1,0 +1,36 @@
+.no-passwords-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-passwords-view {
+  width: 300px;
+}
+
+.no-passwords-text {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .no-passwords-view {
+    width: 240px;
+  }
+
+  .no-passwords-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .no-passwords-view {
+    width: 200px;
+  }
+
+  .no-passwords-text {
+    font-size: 15px;
+  }
+}
